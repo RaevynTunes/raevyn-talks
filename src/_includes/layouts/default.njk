@@ -6,8 +6,7 @@
     <title>{{ pageTitle or siteData.name }}</title>
     <!-- capture the CSS content as a Nunjucks variable -->
     {% set css %}
-      {% include "components/header.css" %}
-      {% include "components/footer.css" %}
+      {% include "css/style.css" %}
     {% endset %}
     <!-- feed it through our cssmin filter to minify -->
     <style>
