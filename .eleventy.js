@@ -3,7 +3,7 @@
 module.exports = function(eleventyConfig) {
   
   // eleventyConfig.addFilter( "myFilter", function() {});
-  
+  eleventyConfig.addPassthroughCopy('/src/css')
   eleventyConfig.setBrowserSyncConfig({
     // https://www.browsersync.io/docs/options/#option-ghostMode
     ghostMode: false
@@ -13,6 +13,7 @@ module.exports = function(eleventyConfig) {
     dir: {
       input: "src",
       output: "dist"
-    }
+    },
+    passthroughFileCopy: true
   };
 };
