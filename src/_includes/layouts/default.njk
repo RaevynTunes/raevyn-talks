@@ -13,7 +13,9 @@
       {{ css | cssmin | safe }}
     </style>
   </head>
-  <body>
-    {{ content | safe }}
+  <body id="top">
+    <section id="hero" class="s-hero target-section">
+      {{ content | safe }}
+    </section
   </body>
 </html>
