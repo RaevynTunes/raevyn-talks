@@ -4,6 +4,7 @@ module.exports = function(eleventyConfig) {
   
   // eleventyConfig.addFilter( "myFilter", function() {});
   eleventyConfig.addPassthroughCopy('./src/css');
+  eleventyConfig.addPassthroughCopy({ "./src/img/": "/" });
   eleventyConfig.addWatchTarget("./src/css/");
   eleventyConfig.setBrowserSyncConfig({
     // https://www.browsersync.io/docs/options/#option-ghostMode
