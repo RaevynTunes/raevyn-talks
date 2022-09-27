@@ -1,5 +1,5 @@
-# Lost Love's Music Talk
+# Raevyn Talk
 
-Just a few thoughts about consuming and creating music.
+Just a few thoughts about my interests.
 
 Made with eleventy.
